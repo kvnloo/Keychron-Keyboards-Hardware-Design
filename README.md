@@ -16,6 +16,7 @@ Study real CAD. Remix plates and cases. Design compatible accessories. Learn fro
 ## Latest Updates
 
 - **2026-10-08:** Added Orca Echo files.
+- **2026-09-29:** Added more Q3 HE 8K files.
 - **2026-09-23:** Added more K5 QMK files.
 - **2026-09-22:** Added J2 HE 8K files.
 - **2026-09-18:** Added G9 HE mouse files.
