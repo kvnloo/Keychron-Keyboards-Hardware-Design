@@ -15,6 +15,7 @@ Study real CAD. Remix plates and cases. Design compatible accessories. Learn fro
 
 ## Latest Updates
 
+- **2026-10-10:** Added J11 Ultra 8K files.
 - **2026-10-10:** Added J6 Ultra 8K files.
 - **2026-10-10:** Added J9 Ultra 8K files.
 - **2026-10-08:** Added Orca Echo files.
@@ -117,7 +118,7 @@ If you're new, begin with one of these paths:
 | **C Series** | Keyboard | C1 | Plate, PCB, Top Case, Bottom Case, Full Model |
 | **C Pro 8K Series** | Keyboard | C1 Pro 8K, C2 Pro 8K, C3 Pro 8K | Case, Plate, Full Model, Stabilizer |
 | **J Series** | Keyboard | J2, J5, J7 | Plate, PCB, Bottom Case, Full Model |
-| **J Ultra Series** | Keyboard | J6 Ultra 8K, J9 Ultra 8K | Plate, PCB, Top Case, Bottom Case, Full Model |
+| **J Ultra Series** | Keyboard | J6 Ultra 8K, J9 Ultra 8K, J11 Ultra 8K | Plate, PCB, Top Case, Bottom Case, Full Model |
 | **J HE 8K Series** | Hall Effect | J2 HE 8K | Plate, PCB, Top Case, Bottom Case, Full Model |
 | **Q Series** | Keyboard | Q0 Plus, Q1–Q12, Q60, Q65 | Case, Plate, Encoder, Full Model, Stabilizer, OSA Keycap |
 | **Q Pro Series** | Keyboard | Q1 Pro–Q14 Pro (10 models) | Case, Plate, Encoder, Full Model, Stabilizer, KSA Keycap |
@@ -138,7 +139,7 @@ If you're new, begin with one of these paths:
 | **P HE Series** | Hall Effect | P1 HE, P2 HE, P3 HE | Published files for P1 HE; README/model pages prepared for P2 HE and P3 HE |
 | **Mouse Series** | Mouse | M1–M7, M2 Mini, M3 Mini, G1, G2, G3, G4, G5, G6 HE, G9 HE, BM22, BM24, BM25, BM27, Nape Pro (21 models) | Shell, Full Model, PTFE Files, Receiver Parts |
 
-**169 device models. 790+ design files. Source-available. Accessory-friendly.**
+**170 device models. 790+ design files. Source-available. Accessory-friendly.**
 ![Keychron keyboards structure design](docs/assets/keychron-keyboards-structures.webp)
 
 ## Directory Structure
@@ -157,6 +158,7 @@ J-Series/
 J-Ultra-Series/
   J6 Ultra/             — Low-profile 100% wireless keyboard files with plate, PCB, top case, bottom case, full model, and product image reference
   J9 Ultra/             — Ultra-slim 75% wireless keyboard files with plate, PCB, top case, bottom case, full model, and product image reference
+  J11 Ultra/            — Full-metal 96% wireless keyboard files with plate, PCB, top case, bottom case, full model, and product image reference
 J-HE-8K-Series/
   J2 HE 8K/             — 75% wired Hall Effect 8K files with plate, PCB, top case, bottom case, full model, and product page reference
 Q-Series/

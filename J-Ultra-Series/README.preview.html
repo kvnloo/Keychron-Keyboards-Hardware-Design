@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>J Ultra Series - Hardware Design Files</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --border: #d0d7de;
+      --muted: #57606a;
+      --text: #24292f;
+      --bg: #ffffff;
+      --code-bg: #f6f8fa;
+      --row-bg: #f6f8fa;
+      --link: #0969da;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      box-sizing: border-box;
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 32px;
+    }
+
+    h1 {
+      padding-bottom: 0.3em;
+      border-bottom: 1px solid var(--border);
+      font-size: 2em;
+      line-height: 1.25;
+    }
+
+    h2 {
+      margin-top: 24px;
+      padding-bottom: 0.3em;
+      border-bottom: 1px solid var(--border);
+      font-size: 1.5em;
+    }
+
+    blockquote {
+      margin: 0 0 16px;
+      padding: 0 1em;
+      color: var(--muted);
+      border-left: 0.25em solid var(--border);
+    }
+
+    table {
+      display: block;
+      width: 100%;
+      overflow: auto;
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 6px 13px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    tr:nth-child(2n) {
+      background: var(--row-bg);
+    }
+
+    code,
+    pre {
+      border-radius: 6px;
+      background: var(--code-bg);
+      font-family: ui-monospace, SFMono-Regular, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 85%;
+    }
+
+    code {
+      padding: 0.2em 0.4em;
+    }
+
+    pre {
+      overflow: auto;
+      padding: 16px;
+    }
+
+    pre code {
+      padding: 0;
+      background: transparent;
+      font-size: 100%;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>J Ultra Series - Hardware Design Files</h1>
+
+    <blockquote>
+      <p>Ultra-slim J-series wireless keyboards with 8K polling, ZMK firmware, and Keychron Launcher support.</p>
+    </blockquote>
+
+    <p>Part of the <a href="https://github.com/Keychron/Keychron-Keyboards-Hardware-Design">Keychron Keyboards Hardware Design</a> repository.</p>
+
+    <h2>Available Models</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Layout</th>
+          <th>Components</th>
+          <th>Firmware</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="./J6%20Ultra/README.md">J6 Ultra 8K</a></td>
+          <td>100%</td>
+          <td>Plate, PCB, Top Case, Bottom Case, Full Model</td>
+          <td>ZMK</td>
+        </tr>
+        <tr>
+          <td><a href="./J9%20Ultra/README.md">J9 Ultra 8K</a></td>
+          <td>75%</td>
+          <td>Plate, PCB, Top Case, Bottom Case, Full Model</td>
+          <td>ZMK</td>
+        </tr>
+        <tr>
+          <td><a href="./J11%20Ultra/README.md">J11 Ultra 8K</a></td>
+          <td>96%</td>
+          <td>Plate, PCB, Top Case, Bottom Case, Full Model</td>
+          <td>ZMK</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Repository Contents</h2>
+
+    <p>This series folder currently includes J6 Ultra, J9 Ultra, and J11 Ultra model folders with <code>stp</code>, <code>dwg</code>, and <code>pdf</code> hardware design files.</p>
+
+    <h2>Opening the Files</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Format</th>
+          <th>Free Software</th>
+          <th>Commercial Software</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><code>.stp</code></td><td>FreeCAD, Onshape</td><td>Fusion 360, SolidWorks</td></tr>
+        <tr><td><code>.dwg</code></td><td>LibreCAD (limited), QCAD</td><td>AutoCAD, DraftSight</td></tr>
+        <tr><td><code>.pdf</code></td><td>Any PDF viewer</td><td>-</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Directory Structure</h2>
+
+    <pre><code>J-Ultra-Series/
+|-- J6 Ultra/
+|-- J9 Ultra/
+|-- J11 Ultra/
+`-- README.md</code></pre>
+
+    <h2>Links</h2>
+
+    <ul>
+      <li><a href="https://github.com/Keychron/Keychron-Keyboards-Hardware-Design">Main Repository</a></li>
+    </ul>
+
+    <h2>License</h2>
+
+    <p>This project is <strong>source-available</strong>. Personal and educational use is allowed, and commercial use is allowed for original compatible accessories within the limits of the license.</p>
+
+    <p><strong>You may not use these files to copy, manufacture, sell, or distribute Keychron keyboards or mice, or substantially similar products, and you may not use Keychron trademarks as your own branding.</strong></p>
+
+    <p>See the <a href="../LICENSE">LICENSE</a> file for full terms.</p>
+  </main>
+</body>
+</html>
