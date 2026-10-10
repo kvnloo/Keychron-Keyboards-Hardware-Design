@@ -8,11 +8,12 @@ Part of the [Keychron Keyboards Hardware Design](https://github.com/Keychron/Key
 
 | Model | Layout | Components | Firmware |
 |---|---|---|---|
+| [J6 Ultra 8K](./J6%20Ultra/README.md) | 100% | Plate, PCB, Top Case, Bottom Case, Full Model | ZMK |
 | [J9 Ultra 8K](./J9%20Ultra/README.md) | 75% | Plate, PCB, Top Case, Bottom Case, Full Model | ZMK |
 
 ## Repository Contents
 
-This series folder currently includes the J9 Ultra model folder with `stp`, `dwg`, and `pdf` hardware design files.
+This series folder currently includes J6 Ultra and J9 Ultra model folders with `stp`, `dwg`, and `pdf` hardware design files.
 
 ## Opening the Files
 
@@ -26,6 +27,7 @@ This series folder currently includes the J9 Ultra model folder with `stp`, `dwg
 
 ```text
 J-Ultra-Series/
+├── J6 Ultra/
 ├── J9 Ultra/
 └── README.md
 ```
